@@ -2,6 +2,7 @@
 layout: default
 title: Blog
 ---
+Selected Writings:
 <ul>
   {% for post in site.posts %}
     <li>
