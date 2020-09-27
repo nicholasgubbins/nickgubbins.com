@@ -1,0 +1,18 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="icon" type="image/png" href="/static/favicon.png">
+  <meta charset="utf-8">
+  <title>{{ page.title }} · Nick Gubbins</title>
+</head>
+<body>
+    {% include nav.html %}
+
+<!-- <div id="left">&nbsp;</div> -->
+<div id="content">
+    <h1>{{page.title}}</h1>
+    <div id="sub-date">{{page.date | date_to_string}}</div>
+    {{ content }}
+</div>
+
+</body></html>
