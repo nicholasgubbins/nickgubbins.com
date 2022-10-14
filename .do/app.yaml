@@ -1,0 +1,9 @@
+name: seahorse-app
+static_sites:
+- build_command: bundle exec jekyll build -d ./public
+  environment_slug: master
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: nicholasgubbins/nickgubbins.com
+  name: seahorse-app
